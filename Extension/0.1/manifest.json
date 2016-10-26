@@ -1,0 +1,14 @@
+{
+  "name": "Hide crap on Facebook",
+  "description": "Removes videos and sponsored links from the Facebook timeline.",
+  "version": "0.1",
+  "manifest_version": 2,
+   "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+	  "css": ["style.css"],
+      "js": ["jquery.js", "script.js"]
+    }
+  ],
+  "icons": { "16": "icon16.png", "128": "icon128.png" }
+} 

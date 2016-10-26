@@ -1,0 +1,12 @@
+.container { 
+	padding: 15px;
+	min-height:15px;
+	color: #90949c;
+} 
+.left{
+	float:left;
+}
+.right{
+	float:right;
+	cursor: pointer;
+}
