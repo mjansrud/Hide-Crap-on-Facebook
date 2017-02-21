@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="frameworks/jquery.js"></script>
+<script src="options.js"></script>
+<script src="frameworks/bootstrap/bootstrap.js"></script>
+<script src="frameworks/bootstrap/bootstrap-toggle.js"></script>
+<link rel="stylesheet" type="text/css" href="frameworks/bootstrap/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="frameworks/bootstrap/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="frameworks/bootstrap/bootstrap-toggle.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<title>Hide crap on Facebook - Settings</title>
+<body>
+<div class="container-fluid"> 
+	<div class="col-md-8 container-height" align="center">
+		<div class="container-game container-height">
+			<div id="game"></div>
+		</div>
+	</div>
+	<div class="col-md-4 container-height" align="center">
+		<div class="container-settings container-height">
+			<div class="row">
+				<div class="col-md-12" align="center">
+					<h1>Hide crap on Facebook</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12" align="center">
+					<img src="images/icon128.png" />
+				</div>
+			</div>
+			<div class="row"> 
+				<div class="col-md-12 setting-group-header">
+					<h3>Overall settings</h3>
+				</div>
+			</div>
+			<div class="setting-group">
+				<div class="row setting">
+					<div class="col-md-8">Completely hide posts</div>
+					<div class="col-md-4" align="right"><input type="checkbox" checked data-toggle="toggle" id="main"></div>
+				</div> 
+			</div>		
+			<div class="row">
+				<div class="col-md-12 setting-group-header">
+					<h3>Detailed settings</h3>
+				</div>
+			</div>
+			<div class="setting-group">
+				<div class="row setting">
+					<div class="col-md-8">Hide videos</div>
+					<div class="col-md-4" align="right"><input  type="checkbox" checked data-toggle="toggle" id="videos"></div>
+				</div>
+				<div class="row setting">
+					<div class="col-md-8" >Hide fan pages</div>
+					<div class="col-md-4" align="right"><input type="checkbox" checked data-toggle="toggle" id="pages"></div>
+				</div>		
+				<div class="row setting">
+					<div class="col-md-8">Hide sponsored links</div>
+					<div class="col-md-4" align="right"><input type="checkbox" checked data-toggle="toggle" id="sponsored"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12" align="center">
+					<div id="success" class="success" align="center">
+						Success
+					</div>
+				</div>
+			</div>
+			<div class="row" style="padding-top:40px">
+				<div class="col-md-12" align="center">
+					<h6>Made by <a href="mailto:morten@founder.no" style="color:#fff">Morten Jansrud</a></h6>
+				</div>
+			</div>	
+			<div class="row" >
+				<div class="col-md-12" align="center">
+					<a href="https://founder.no"><img style="width:50%" src="https://founder.no/wp-content/uploads/2015/12/founder-logo-hvit.png" /></a>
+				</div>
+			</div>
+		</div> 
+	</div>
+</div> 
+<script src="frameworks/three/three.js"></script>
+<script src="frameworks/three/projector.js"></script>
+<script src="frameworks/three/renderer.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
